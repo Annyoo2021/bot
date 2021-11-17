@@ -15,7 +15,7 @@
 - `nohup python3 -m jbot >/dev/null 2>&1 &`
 
 一键：
-cd config && wget https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
+cd config && rm -rf bot.sh && wget https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
 
 ##### 更多详细图文教程，请参考：https://blog.zjxnas.top/archives/31/
 ## 三、其他
