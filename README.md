@@ -14,9 +14,10 @@
 - `cd /jd/jbot && pm2 start ecosystem.config.js`
 - `nohup python3 -m jbot >/dev/null 2>&1 &`
 
-一键：
+# 一键：
+```
 cd config && rm -rf bot.sh && wget https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
-
+```
 ##### 更多详细图文教程，请参考：https://blog.zjxnas.top/archives/31/
 ## 三、其他
 1. 安装python3
