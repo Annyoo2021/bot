@@ -96,7 +96,7 @@ async def cmd(cmdtext):
             await jdbot.edit_message(msg, '已执行，但返回值为空')
         elif len(res) <= 4000:
             await jdbot.delete_messages(chat_id, msg)
-            if not re.search(r'((\n|.)*(抽奖有礼|加购有礼|组队瓜分京豆1|收藏有礼|关注有礼|会员开卡), 开始!)', res):
+            if not re.search(r'(\n|.)*(抽奖有礼|加购有礼|组队瓜分京豆1|收藏有礼|关注有礼|会员开卡), 开始!', res):
                 await jdbot.send_message(chat_id, res)
         elif len(res) > 4000:
             _log = f'{_LogDir}/bot/{cmdtext.split("/")[-1].split(".js")[0]}-{datetime.datetime.now().strftime("%H-%M-%S")}.log'
