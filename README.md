@@ -18,10 +18,16 @@
 ```
 cd config && rm -rf bot.sh && wget https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
 ```
+
+```
+cd config && rm -rf bot.sh && wget https://ghproxy.com/https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
+```
+
 # 一键方法二、 给机器人发消息：
 ```
 /cmd cd config && rm -rf bot.sh && wget https://raw.githubusercontent.com/Annyoo2021/bot/main/config/bot.sh && bash bot.sh && cd /jd/
 ```
+
 
 ##### 更多详细图文教程，请参考：https://blog.zjxnas.top/archives/31/
 ## 三、其他
